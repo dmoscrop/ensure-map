@@ -1,0 +1,22 @@
+{
+  "name": "ensure-map",
+  "version": "1.0.1",
+  "description": "makes a map out of string, array and object",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dmoscrop/ensure-map.git"
+  },
+  "author": "Doug Moscrop",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dmoscrop/ensure-map/issues"
+  },
+  "homepage": "https://github.com/dmoscrop/ensure-map",
+  "devDependencies": {
+    "mocha": "^2.0.1"
+  }
+}
