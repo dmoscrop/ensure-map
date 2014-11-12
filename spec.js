@@ -1,6 +1,18 @@
 var ensureMap = require('./'),
     assert = require('assert');
 
+it('takes an empty object', function () {
+    assert.deepEqual(ensureMap({}), {});
+});
+
+it('takes no arguments', function () {
+    assert.deepEqual(ensureMap(), {});
+});
+
+it('handles undefined', function () {
+    assert.deepEqual(ensureMap(undefined), {});
+});
+
 it('handles string', function () {
     var expected = {
         foo:'foo'

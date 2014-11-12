@@ -21,7 +21,9 @@ function ensureMap(map, arg) {
             }
         });
     } else {
-        map[arg] = arg;
+        if (arg) {
+            map[arg] = arg;
+        }
         return;
     }
 }
